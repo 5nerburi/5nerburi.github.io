@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+- 2.2.5
+sudo: false
+script: bundle exec rake deploy
+branches:
+  only:
+  - content
+env:
+  global:
+  - GH_REF: github.com/5nerburi/5nerburi.github.io
+  - secure: YO4274+yFTCq+pneaI0qZfHezJ2StVtW1hjpFOtEuDoKGfHXQRh0lMJcVDpmeLjfFD+Sl+K1I9JQL2aCAmAa557qS5unmlKLNzybmYX21FV8t4r45gRoSNFJeXrpSVpLdZwxtNzW5F2WQw8R8Iar8wJR5TR7PSvVHY3H3zmEz/WaQk4qazd9TT/xFm5sm7nRrMW9Btyn9Bs1Ntb2uPJqdhQB9ZKp00YBci4NuVD4XkLRlK2CjW4sAr8+7PX3PHWX+R5S+p5rpn/m8tHZTjvk9Imx+vhUhG+nODPJ6MnLM1MChUy6YGpD9L3l/1jj+YiJKTKGeresCJgeBpRfTKzzQi2Duf6Dw0kU8gL0vuUFvd+SM5YkbZxzYALti3aVJ6meo/D4zDNOv2ZeQaAQVSd6c8S0rNVgue8FUPm6KIHm62P1dr2uGLU+sPiluWLd9gEikArXPFnuxXB6w8BbwZILv97Pw7F8InjyMLtkVmrxFBFvSWKL3s/Jm3AEvk/2eDphMdP3lGk2nJzIWrOs6/Wz3eJ3ynIHBtDk8tWeOqxhPWVGtaM8m0na1pFmwkzTivsmDXfMwxLCuoBelB+YN9T5oFs4tgLdDUnrVMl4pKqoyeL1gGX0TEL9sgqhWjNGjRmAfQiQkQ/6k33VT1ST2cdWz7Lg+kLaVftnmfw2XjQYtXk=
