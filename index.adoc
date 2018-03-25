@@ -34,5 +34,3 @@ Montreal, QC, H3A 0C5 Canada +
 === *Personal Development Projects using Python* +
 - Automation of data extraction from text & image files and webpages +
 - Optimization of process parameters using machine learning algorithms +
-
-link:hobbies[see Hobbies]
