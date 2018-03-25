@@ -4,6 +4,7 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     asciidoctor (1.5.6.1)
+    coderay (1.1.2)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
     em-websocket (0.5.1)
@@ -55,6 +56,9 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
+    rake (10.5.0)
+    rake-jekyll (1.1.0)
+      rake (~> 10.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -71,6 +75,7 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2018.3)
       tzinfo (>= 1.0.0)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -78,11 +83,14 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  coderay (~> 1.1.0)
   jekyll (~> 3.7.2)
   jekyll-asciidoc
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  rake-jekyll (~> 1.1.0)
   tzinfo-data
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.16.1
